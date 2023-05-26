@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+
+select {
+  margin: 6px 0px 3px;
+  border: solid 1px black;
+  border-radius: 3px;
+}
+
+input {
+  border: solid 1p black;
+  border-radius: 3px;
+  margin: 0px 4px;
+}
+
+
+.meme img {
+ width: 100%;
+}
+
+.meme span:nth-child(1) {
+  margin-top: 290px;
+}
+.span1{
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-size: 38px;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  line-height: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: white;
+  overflow: hidden;
+  text-shadow: 2px 0 0  black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, 1px 0 black;
+}
+
+.span2{
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-size: 38px;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-height: 1;
+  color: white;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, 1px 0 black;
+} 
+
+
+
+body,.meme {
+  background: black;
+}
+
+
+
+
+/* @media screen and (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
